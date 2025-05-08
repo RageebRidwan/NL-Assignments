@@ -4,7 +4,7 @@
 It is really useful to ensure type safety while creating functions that require object keys.
 
 ### Example:
-```ts
+
 interface Vehicle {
     name: string;
     category: string;
