@@ -15,7 +15,9 @@ function getVal(obj: Vehicle, key: keyof Vehicle) {
 }
 
 // keyof Vehicle contains "name" | "category"
+
 const car: Vehicle = { name: "Toyota", category: "Land" };
+
 console.log(getVal(car, "name")); // Output: Toyota
 
 
