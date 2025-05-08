@@ -1,9 +1,9 @@
 ## 2. What is the use of the `keyof` keyword in TypeScript?
 
-`keyof` is an operator in TypeScript which gives us the union of all properties or keys of an object type as string literal types.  
+keyof is an operator in TypeScript which gives us the union of all properties or keys of an object type as string literal types.  
 It is really useful to ensure type safety while creating functions that require object keys.
 
-### Example:
+## Example:
 
 interface Vehicle {
     name: string;
